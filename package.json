@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [tough-cookie (v2.3.2)](https://github.com/salesforce/tough-cookie) [![npm package](https://img.shields.io/npm/v/npmtest-tough-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tough-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tough-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-tough-cookie)",
+    "description": "#### test coverage for  [tough-cookie (v2.3.2)](https://github.com/salesforce/tough-cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-tough-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tough-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tough-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-tough-cookie)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "tough-cookie": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }

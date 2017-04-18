@@ -1,7 +1,10 @@
-# test coverage for  [tough-cookie (v2.3.2)](https://github.com/salesforce/tough-cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-tough-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tough-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tough-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-tough-cookie)
+# npmtest-tough-cookie
+
+#### test coverage for  [tough-cookie (v2.3.2)](https://github.com/salesforce/tough-cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-tough-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tough-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tough-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-tough-cookie)
+
 #### RFC6265 Cookies and Cookie Jar for node.js
 
-[![NPM](https://nodei.co/npm/tough-cookie.png?downloads=true)](https://www.npmjs.com/package/tough-cookie)
+[![NPM](https://nodei.co/npm/tough-cookie.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/tough-cookie)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-tough-cookie/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tough-cookie/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tough-cookie/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-tough-cookie/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-tough-cookie/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-tough-cookie%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-tough-cookie/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-tough-cookie/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-tough-cookie%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tough-cookie/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.html](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-tough-cookie/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-tough-cookie/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-tough-cookie/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-tough-cookie/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tough-cookie/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-tough-cookie/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Jeremy Stashewsky",
-        "email": "jstashewsky@salesforce.com"
+        "name": "Jeremy Stashewsky"
     },
     "bugs": {
         "url": "https://github.com/salesforce/tough-cookie/issues"
@@ -89,21 +97,17 @@
     "main": "./lib/cookie",
     "maintainers": [
         {
-            "name": "awaterma",
-            "email": "awaterma@awaterma.net"
+            "name": "awaterma"
         },
         {
-            "name": "jstash",
-            "email": "jstash@gmail.com"
+            "name": "jstash"
         },
         {
-            "name": "nexxy",
-            "email": "emily@contactvibe.com"
+            "name": "nexxy"
         }
     ],
     "name": "tough-cookie",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/salesforce/tough-cookie.git"
