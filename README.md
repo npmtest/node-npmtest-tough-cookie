@@ -1,6 +1,6 @@
 # npmtest-tough-cookie
 
-#### test coverage for  [tough-cookie (v2.3.2)](https://github.com/salesforce/tough-cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-tough-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tough-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tough-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-tough-cookie)
+#### basic test coverage for  [tough-cookie (v2.3.2)](https://github.com/salesforce/tough-cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-tough-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tough-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tough-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-tough-cookie)
 
 #### RFC6265 Cookies and Cookie Jar for node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tough-cookie/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tough-cookie/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tough-cookie/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tough-cookie/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tough-cookie/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tough-cookie/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tough-cookie/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tough-cookie/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "suffixup": "curl -o public_suffix_list.dat https://publicsuffix.org/list/public_suffix_list.dat && ./generate-pubsuffix.js",
         "test": "vows test/*_test.js"
     },
-    "version": "2.3.2"
+    "version": "2.3.2",
+    "bin": {}
 }
 ```
 
